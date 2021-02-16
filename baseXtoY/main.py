@@ -1,7 +1,7 @@
 #!/usr/bin/pypy3
 from time import time
 from math import log, ceil
-from number import number as num_baseX
+from . import number as num_baseX
 
 def baseXto10(number, base = 10):
     '''

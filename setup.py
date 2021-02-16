@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="baseconv",
-    version="0.1",
+    name="baseXtoY",
+    version="0.2",
     author="L. Pham-Trong",
     author_email="spam@lucasanss.xyz",
     description="A simple base converter in python3.",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: BSD 4-Clause License",
+        "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.0',
