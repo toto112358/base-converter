@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="baseXtoY",
-    version="0.2",
+    version="0.4",
     author="L. Pham-Trong",
     author_email="spam@lucasanss.xyz",
     description="A simple base converter in python3.",

@@ -1,2 +1,2 @@
-from .main import baseXtoY, license
-__all__ = []
+from .modules import baseXtoY, license
+__all__ = ['baseXtoY', 'license']
